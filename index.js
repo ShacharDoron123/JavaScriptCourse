@@ -74,3 +74,26 @@ document.getElementById("mySubmit").onclick = function () {
   document.getElementById("usernameH1").textContent = `Hi! ${userName}`;
 };
 
+
+//type conversion
+
+let age2 = window.prompt("how are you?");
+age2 = Number(age2); //to int
+
+age+=1;
+
+x = "pizza";
+let y 
+let z 
+
+// counst
+
+const PI=3.14159;
+let radius;
+let cir;
+
+radius = window.prompt("enter the radius")
+radius = Number(radius)
+
+cir =  2*PI*radius;
+console.log(cir);
