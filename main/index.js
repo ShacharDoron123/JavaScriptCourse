@@ -75,7 +75,7 @@ document.getElementById("mySubmit").onclick = function () {
 };
 
 
-//type conversion
+// type conversion
 
 let age2 = window.prompt("how are you?");
 age2 = Number(age2); //to int
@@ -86,7 +86,7 @@ x = "pizza";
 let y 
 let z 
 
-// counst
+// const
 
 const PI=3.14159;
 let radius;
@@ -97,3 +97,24 @@ radius = Number(radius)
 
 cir =  2*PI*radius;
 console.log(cir);
+
+// math object
+
+console.log(Math.PI);
+let j = 3.21
+let k = 2;
+let u;
+
+z = Math.round(x);
+console.log(z);
+z = Math.floor(x);
+console.log(x);
+
+z = Math.sqrt(x)
+
+// random number
+
+// now its between y and x, from x to y incloude
+let randomNum = Math.floor(Math.random()*(max-min))+min;
+
+console.log(randomNum);
