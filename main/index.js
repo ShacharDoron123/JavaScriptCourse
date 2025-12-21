@@ -118,3 +118,25 @@ z = Math.sqrt(x)
 let randomNum = Math.floor(Math.random()*(max-min))+min;
 
 console.log(randomNum);
+
+// if statements 
+
+let myAge = 17;
+
+if(myAge >= 18){
+  console.log("you are old enough to enter this site");
+}
+else{
+  console.log("you must be 18+ to enter");
+}
+
+let isMale = true;
+
+if(isMale){
+  console.log("you are male")
+} else{
+  console.log("you are not male")
+}
+
+// .checked 
+
