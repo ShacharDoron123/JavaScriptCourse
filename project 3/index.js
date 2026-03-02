@@ -7,7 +7,7 @@ document.getElementById("blue").onclick = function(){
 document.getElementById("green").onclick = function(){
     document.body.style.backgroundColor = "green";
 }
-document.getElementById("ran").onclick = function() {
+document.getElementById("ran").onclick = function(){
     const r = Math.floor(Math.random() * 256);
     const g = Math.floor(Math.random() * 256);
     const b = Math.floor(Math.random() * 256);
@@ -21,3 +21,5 @@ document.getElementById("Send").onclick = function(){
     document.body.style.backgroundColor = `rgb(${r}, ${g}, ${b})`;
 
 }
+
+
