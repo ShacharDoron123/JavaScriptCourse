@@ -1,7 +1,8 @@
 let random;
 let attempts;
 
-document.getElementById("send1").onclick = function () {
+//get the values to the range
+document.getElementById("startBtn").onclick = function () {
     let min = Number(document.getElementById("min").value);
     let max = Number(document.getElementById("max").value);
 
@@ -10,7 +11,7 @@ document.getElementById("send1").onclick = function () {
     document.getElementById("output").textContent = "המשחק התחיל! תתחיל לנחש...";
 };
 
-document.getElementById("send2").onclick = function () {
+document.getElementById("guessBtn").onclick = function () {
     let guess = Number(document.getElementById("guess").value);
     attempts--;
 

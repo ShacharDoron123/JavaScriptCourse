@@ -30,12 +30,54 @@ hr{
     margin: 20px 0;
 }
 
-#output {
-    font-size: 20px;
-    margin: 10px 0;
+
+.guess-game{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-#score {
-    font-size: 24px;
+.guess-game .game-container{
+    direction: ltr;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    width: 320px;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.guess-game h1{
+    margin-bottom: 20px;
+}
+
+.guess-game .range-section,
+.guess-game .control-section,
+.guess-game .guess-section{
+    margin-bottom: 15px;
+}
+
+.guess-game input{
+    width: 70px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.guess-game button{
+    padding: 8px 15px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.guess-game button:hover{
+    background-color: #45a049;
+}
+
+.guess-game #output{
+    margin-top: 15px;
     font-weight: bold;
 }
